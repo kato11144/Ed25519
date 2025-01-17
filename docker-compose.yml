@@ -1,6 +1,6 @@
 services:
   ubuntu:
-    container_name: ECDSA
+    container_name: Ed25519
     build:
       context: .
       dockerfile: Dockerfile
